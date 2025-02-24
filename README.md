@@ -15,10 +15,12 @@ DB:
 
 change application.properties file before run this code
 
-  spring.application.name=[Your_project_name]
-  spring.datasource.url= jdbc:mysql://localhost:3306/[Your_db_name]?createDatabaseIfNotExist=true&useSSL=false
-  spring.datasource.username=root
-  spring.datasource.password=[your_password]
-  spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
-  spring.jpa.hibernate.ddl-auto=update
-  spring.jpa.show-sql=true
+```properties
+spring.application.name=[Your_project_name]
+spring.datasource.url= jdbc:mysql://localhost:3306/[Your_db_name]?createDatabaseIfNotExist=true&useSSL=false
+spring.datasource.username=root
+spring.datasource.password=[your_password]
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
