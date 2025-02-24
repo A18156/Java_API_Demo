@@ -1,7 +1,7 @@
 # Java_API_Demo
 Project using Java Spring, this about CRUD, pagination, search API and generic CRUD API
 
-+ Constructure:
+* Constructure:
 - Entity
 - DTO
 - Repository
@@ -10,7 +10,7 @@ Project using Java Spring, this about CRUD, pagination, search API and generic C
 - Controller
 - Exception using ControllerAdvice
 
-+ DB:
+* DB:
 - MySQL 
 
 change application.properties file before run this code
